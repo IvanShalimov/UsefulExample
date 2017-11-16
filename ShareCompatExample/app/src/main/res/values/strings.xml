@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ShareCompatExample</string>
+    <string name="share">share</string>
 </resources>
