@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PreferencesChangeListener</string>
+    <string name="test_preferences">test_preferences</string>
+    <string name="test_preferences_title">Test Preferences</string>
+    <string name="on_label">On</string>
+    <string name="off_label">Off</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="settings_menu_label">Settings</string>
+</resources>
