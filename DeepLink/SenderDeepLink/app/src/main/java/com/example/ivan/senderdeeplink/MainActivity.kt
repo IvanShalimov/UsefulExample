@@ -12,6 +12,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClick(view:View){
-        //Тут код чтобы запустить нашу активити
+        val address:Uri = Uri.parse("example://myhost");
+        val intent:Intent = Intent(Intent.ACTION_VIEW,address);
+        startActivity(intent);
     }
 }
