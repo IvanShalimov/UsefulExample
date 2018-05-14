@@ -18,3 +18,4 @@
      
  ## 3.DeepLink   
  Здесь лежат два приложения(приемник и отправитель), для демонстрации реализации DeepLink в приложениях
+ Подробней можно почитать вот тут: https://developer.android.com/training/app-links/deep-linking
