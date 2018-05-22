@@ -18,4 +18,15 @@
      
  ## 3.DeepLink   
  Здесь лежат два приложения(приемник и отправитель), для демонстрации реализации DeepLink в приложениях
- Подробней можно почитать вот тут: https://developer.android.com/training/app-links/deep-linking
+ Подробней можно почитать вот тут: https://developer.android.com/training/app-links/deep-linking   
+     
+ ## 4.SecondAreaTest   
+ Небольшое тестовое приложение, где лежат сырые рецепты работы с google map. Простые примеры работы с *android-maps-utils*.
+ 1. *StartActivity* - стартовый экран, с которого переходим к нужным примерам;   
+ 2. *MarksMapActivity* - Экран где демонстрируется работа с маркерками(устанавливать по нажатию на карту, кастомная иконка, подписи) и рисуется круг(Circle);   
+ 3. *SneakMapActivity* - построение цепочки линий(polyline);   
+ 4. *KmShowMapsActivity* - подсчитывается расстояние между двумя координатами(написан свой метод вычисления, а также с использованием *android-maps-utils*;   
+ 5. *CircleRotateActivity* - демонстрируется сохранение отметок при повороте на экране;   
+ 6. *HeatMapActivity*;   
+ 7. *ClusteringMapActivity* - демонстрация работы кластеров меток;   
+ 8. *MapViewActivity* - демонстрация работы с MapView(нет SupportMapFragment).
