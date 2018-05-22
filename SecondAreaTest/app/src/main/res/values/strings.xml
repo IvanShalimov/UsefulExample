@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SecondAreaTest</string>
+    <string name="start">Start</string>
+    <string name="info">Info</string>
+    <string name="from_label">От</string>
+    <string name="to_label">До</string>
+    <string name="trim_label">trim</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_current_location_map">CurrentLocation</string>
+    <string name="title_activity_marks_map">Map</string>
+    <string name="title_activity_sneak_map">Map</string>
+    <string name="title_activity_km_show_maps">Map</string>
+    <string name="title_activity_circle_rotate_map">Map</string>
+    <string name="title_activity_clustering_map">Map</string>
+    <string name="title_activity_heat_map">Map</string>
+</resources>
