@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.example.ivan.secondareatest.example.*
+import com.example.ivan.secondareatest.example.zoom.ZoomMapActivity
 
 class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
     private val list = listOf(MarksMapActivity::class.java,
@@ -14,7 +15,8 @@ class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
             CircleRotateMapActivity::class.java,
             HeatMapActivity::class.java,
             MapViewActivity::class.java,
-            MarksMapActivity::class.java)
+            MarksMapActivity::class.java,
+            ZoomMapActivity::class.java)
     var callback:OnItemClick? = null
 
     override fun getItemCount() = list.size

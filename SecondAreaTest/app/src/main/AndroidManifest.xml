@@ -29,7 +29,7 @@
 
         <activity android:name=".other.mp4parser.MainActivity" />
         <activity android:name=".other.mp4parser.TrimMp4Activity" />
-        <activity android:name="com.example.ivan.secondareatest.other.mp4parser.Mp4ParserActivity" />
+        <activity android:name=".other.mp4parser.Mp4ParserActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -73,7 +73,8 @@
         <activity
             android:name=".example.HeatMapActivity"
             android:label="@string/title_activity_heat_map" />
-        <activity android:name=".example.MapViewActivity"></activity>
+        <activity android:name=".example.MapViewActivity" />
+        <activity android:name=".example.zoom.ZoomMapActivity"></activity>
     </application>
 
 </manifest>
