@@ -17,7 +17,6 @@ class StartActivity : AppCompatActivity(), View.OnClickListener {
         button2.setOnClickListener(this)
         button3.setOnClickListener(this)
         button4.setOnClickListener(this)
-        button5.setOnClickListener(this)
         button6.setOnClickListener(this)
         button7.setOnClickListener(this)
     }
@@ -36,9 +35,6 @@ class StartActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.button4 -> {
                 Intent(applicationContext, CircleRotateMapActivity::class.java)
-            }
-            R.id.button5 -> {
-                Intent(applicationContext, ClusteringMapActivity::class.java)
             }
             R.id.button6 -> {
                 Intent(applicationContext, HeatMapActivity::class.java)
