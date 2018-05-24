@@ -20,6 +20,7 @@ class MapViewActivity : AppCompatActivity(), OnMapReadyCallback {
         setContentView(R.layout.activity_map_view)
 
         map_view = findViewById(R.id.map_view)
+        map_view.onCreate(savedInstanceState)
         map_view.getMapAsync(this)
     }
 
@@ -31,9 +32,9 @@ class MapViewActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap?.addMarker(MarkerOptions()
                 .position(coord)
                 .title("test mark"))
-        //mMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(coord,15F))
+        mMap?.moveCamera(CameraUpdateFactory.newLatLngZoom(coord,15F))
     }
-/*
+
     override fun onStart() {
         super.onStart()
         map_view.onStart()
@@ -67,5 +68,5 @@ class MapViewActivity : AppCompatActivity(), OnMapReadyCallback {
     override fun onSaveInstanceState(outState: Bundle?) {
         map_view.onSaveInstanceState(outState)
         super.onSaveInstanceState(outState)
-    }*/
+    }
 }
