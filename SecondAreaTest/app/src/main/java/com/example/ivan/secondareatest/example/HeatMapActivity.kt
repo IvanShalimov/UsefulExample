@@ -26,7 +26,7 @@ class HeatMapActivity : AppCompatActivity(), OnMapReadyCallback {
         setContentView(R.layout.activity_heat_map)
 
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.map) as SupportMapFragment
+                .findFragmentById(R.id.map_view) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
 

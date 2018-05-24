@@ -3,9 +3,6 @@ package com.example.ivan.secondareatest.example
 import android.Manifest
 import android.content.Context
 import android.content.pm.PackageManager
-import android.graphics.Bitmap
-import android.graphics.Canvas
-import android.graphics.drawable.Drawable
 import android.location.Location
 import android.location.LocationListener
 import android.location.LocationManager
@@ -40,7 +37,7 @@ class MarksMapActivity : AppCompatActivity(), OnMapReadyCallback ,
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
 
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.map) as SupportMapFragment
+                .findFragmentById(R.id.map_view) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
 

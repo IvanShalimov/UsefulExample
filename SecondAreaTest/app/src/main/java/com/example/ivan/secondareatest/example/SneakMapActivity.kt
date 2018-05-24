@@ -5,7 +5,6 @@ import android.os.Bundle
 import android.view.View
 import com.example.ivan.secondareatest.R
 
-import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
@@ -27,7 +26,7 @@ class SneakMapActivity : AppCompatActivity(),
         clear_button.setOnClickListener(this)
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.map) as SupportMapFragment
+                .findFragmentById(R.id.map_view) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
 

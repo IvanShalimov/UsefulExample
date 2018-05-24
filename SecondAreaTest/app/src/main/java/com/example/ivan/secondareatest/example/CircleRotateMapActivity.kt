@@ -1,23 +1,16 @@
 package com.example.ivan.secondareatest.example
 
-import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.util.Log
-import com.example.ivan.secondareatest.MapsActivity
 import com.example.ivan.secondareatest.R
 
-import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
 import java.util.*
-import com.google.android.gms.maps.model.Circle
 import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.CircleOptions
-
 
 
 class CircleRotateMapActivity : AppCompatActivity(), OnMapReadyCallback,
@@ -50,7 +43,7 @@ class CircleRotateMapActivity : AppCompatActivity(), OnMapReadyCallback,
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         val mapFragment = supportFragmentManager
-                .findFragmentById(R.id.map) as SupportMapFragment
+                .findFragmentById(R.id.map_view) as SupportMapFragment
         mapFragment.getMapAsync(this)
     }
 
