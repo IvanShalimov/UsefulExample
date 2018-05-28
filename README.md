@@ -27,6 +27,9 @@
  3. *SneakMapActivity* - построение цепочки линий(polyline);   
  4. *KmShowMapsActivity* - подсчитывается расстояние между двумя координатами(написан свой метод вычисления, а также с использованием *android-maps-utils*;   
  5. *CircleRotateActivity* - демонстрируется сохранение отметок при повороте на экране;   
- 6. *HeatMapActivity*;   
- 7. *ClusteringMapActivity* - демонстрация работы кластеров меток;   
- 8. *MapViewActivity* - демонстрация работы с MapView(нет SupportMapFragment).
+ 6. *HeatMapActivity*;    
+ 7. *MapViewActivity* - демонстрация работы с MapView(нет SupportMapFragment).
+    
+ ## 5.AnimationAreaTest   
+ 
+Проект для отработки навыка работы с анимацией
