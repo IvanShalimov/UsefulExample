@@ -68,13 +68,9 @@
             android:name=".example.CircleRotateMapActivity"
             android:label="@string/title_activity_circle_rotate_map" />
         <activity
-            android:name=".example.ClusteringMapActivity"
-            android:label="@string/title_activity_clustering_map" />
-        <activity
             android:name=".example.HeatMapActivity"
             android:label="@string/title_activity_heat_map" />
         <activity android:name=".example.MapViewActivity" />
-        <activity android:name=".example.zoom.ZoomMapActivity"></activity>
     </application>
 
 </manifest>

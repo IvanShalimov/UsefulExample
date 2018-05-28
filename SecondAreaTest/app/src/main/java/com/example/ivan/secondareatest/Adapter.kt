@@ -6,7 +6,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import com.example.ivan.secondareatest.example.*
-import com.example.ivan.secondareatest.example.zoom.ZoomMapActivity
 
 class Adapter : RecyclerView.Adapter<Adapter.ViewHolder>() {
     private val list = listOf(MarksMapActivity::class.java,
